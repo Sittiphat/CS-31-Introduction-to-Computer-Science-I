@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://ccle.ucla.edu/mod/assign/view.php?id=2992559 -->
+<html dir="ltr" lang="en-us" xml:lang="en-us" class="yui3-js-enabled"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><style type="text/css" id="dark-mode-custom-style"></style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>201A-COMSCI31-1: Project 1</title>
+    <link rel="shortcut icon" href="https://ccle.ucla.edu/theme/image.php/uclashared/theme/1592919301/favicon">
+    <meta name="apple-itunes-app" content="app-id=1356392252, app-argument=https://ccle.ucla.edu/mod/assign/view.php?id=2992559&amp;rownum=0&amp;useridlistid=5efa9511a997b983893278&amp;action"><link rel="manifest" href="https://ccle.ucla.edu/admin/tool/mobile/mobile.webmanifest.php"><link href="./201A-COMSCI31-1_ Project 1_files/css" rel="stylesheet" type="text/css">
+<meta name="keywords" content="moodle, 201A-COMSCI31-1: Project 1">
+<link rel="stylesheet" type="text/css" href="./201A-COMSCI31-1_ Project 1_files/combo"><script async="" src="./201A-COMSCI31-1_ Project 1_files/analytics.js.download"></script><script charset="utf-8" id="yui_3_17_2_1_1593480465831_8" src="./201A-COMSCI31-1_ Project 1_files/combo(1)" async=""></script><link charset="utf-8" rel="stylesheet" id="yui_3_17_2_1_1593480465831_20" href="./201A-COMSCI31-1_ Project 1_files/combo(2)"><script charset="utf-8" id="yui_3_17_2_1_1593480465831_21" src="./201A-COMSCI31-1_ Project 1_files/combo(3)" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1593480465831_29" src="./201A-COMSCI31-1_ Project 1_files/combo(4)" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1593480465831_31" src="./201A-COMSCI31-1_ Project 1_files/javascript.php" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1593480465831_33" src="./201A-COMSCI31-1_ Project 1_files/combo(5)" async=""></script><link charset="utf-8" rel="stylesheet" id="yui_3_17_2_1_1593480465831_34" href="./201A-COMSCI31-1_ Project 1_files/combo(6)"><script charset="utf-8" id="yui_3_17_2_1_1593480465831_35" src="./201A-COMSCI31-1_ Project 1_files/combo(7)" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1593480465831_36" src="./201A-COMSCI31-1_ Project 1_files/combo(8)" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1593480465831_37" src="./201A-COMSCI31-1_ Project 1_files/javascript(1).php" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1593480465831_38" src="./201A-COMSCI31-1_ Project 1_files/combo(9)" async=""></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="./201A-COMSCI31-1_ Project 1_files/styles.php">
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/ccle.ucla.edu","sesskey":"2uuu7LDFvp","sessiontimeout":"14400","themerev":"1592919301","slasharguments":1,"theme":"uclashared","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1592919301","admin":"admin","svgicons":true,"usertimezone":"America\/Los_Angeles","contextid":3430496,"langrev":1593429579,"templaterev":"1592919301"};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/ccle.ucla.edu\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/ccle.ucla.edu\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/ccle.ucla.edu\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/ccle.ucla.edu\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/ccle.ucla.edu\/theme\/yui_combo.php?m\/1592919301\/","combine":true,"comboBase":"https:\/\/ccle.ucla.edu\/theme\/yui_combo.php?","ext":false,"root":"m\/1592919301\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_mediagallery-base":{"requires":["base","node","selector-css3","dd-constrain","dd-proxy","dd-drop","dd-plugin","moodle-core-notification","event"]},"moodle-mod_mediagallery-mediabox":{"requires":["base","node","selector-css3"]},"moodle-mod_oublog-savecheck":{"requires":["base","node","io","panel","moodle-core-notification-alert"]},"moodle-mod_oublog-tagselector":{"requires":["base","node","autocomplete","autocomplete-filters","autocomplete-highlighters"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_scheduler-delselected":{"requires":["base","node","event"]},"moodle-mod_scheduler-saveseen":{"requires":["base","node","event"]},"moodle-mod_scheduler-studentlist":{"requires":["base","node","event","io"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-block_ucla_search-search":{"requires":["autocomplete","autocomplete-highlighters","autocomplete-filters"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_editrolesbycap-capabilityformfield":{"requires":["base","dom","event","cookie"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-local_kaltura-lticontainer":{"requires":["base","node"]},"moodle-local_kaltura-ltipanel":{"requires":["base","node","panel","node-event-simulate"]},"moodle-local_kaltura-ltiservice":{"requires":["base","node","node-event-simulate"]},"moodle-local_kaltura-ltitinymcepanel":{"requires":["base","node","panel","node-event-simulate"]},"moodle-local_ucla-availabilityconditions":{"requires":["moodle-core-tooltip"]},"moodle-local_ucla-gradebooktable":{"requires":["node","event","node-event-simulate","moodle-block_ucla_help-doc_loader"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bsgrid-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_chemistry-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_chemrender-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_computing-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_count-button":{"requires":["io","json-parse","moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_fullscreen-button":{"requires":["event-resize","moodle-editor_atto-plugin"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-beautify":{},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_kalturamedia-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_lti-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_mediagallery-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_panoptobutton-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_poodll-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/ccle.ucla.edu\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/ccle.ucla.edu\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1592919301\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/ccle.ucla.edu\/lib\/javascript.php\/1592919301\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/ccle.ucla.edu\/lib\/javascript.php\/1592919301\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@2.7.8\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core/first" src="./201A-COMSCI31-1_ Project 1_files/requirejs.php"></script><script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [['$','$'], ['\\(','\\)']],
+            processEscapes: true
+        },
+        config: ["MMLorHTML.js", "Safe.js"],
+        jax: ["input/TeX","input/MathML","output/HTML-CSS","output/NativeMML"],
+        extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js"],
+        TeX: {
+            extensions: ["mhchem.js","AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
+        },
+        menuSettings: {
+            zoom: "Double-Click",
+            mpContext: true,
+            mpMouse: true
+        },
+        errorSettings: { message: ["!"] },
+        skipStartupTypeset: true,
+        messageStyle: "none"
+    });</script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="./201A-COMSCI31-1_ Project 1_files/javascript(2).php"></script></head>
+<body id="page-mod-assign-view" class="format-ucla path-mod path-mod-assign chrome dir-ltr lang-en_us yui-skin-sam yui3-skin-sam ccle-ucla-edu pagelayout-incourse course-86347 context-3430496 cmid-2992559 category-320 drawer-open-left jsenabled scrolled" data-gr-c-s-loaded="true">
+<div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"></div>
+
+<div id="page-wrapper">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="https://ccle.ucla.edu/mod/assign/view.php?id=2992559#maincontent">Skip to main content</a>
+</div><script src="./201A-COMSCI31-1_ Project 1_files/javascript(3).php"></script>
+<script src="./201A-COMSCI31-1_ Project 1_files/javascript(4).php"></script>
+<script src="./201A-COMSCI31-1_ Project 1_files/combo(10)"></script><script src="./201A-COMSCI31-1_ Project 1_files/jquery-3.4.1.min.js.download"></script>
+<script src="./201A-COMSCI31-1_ Project 1_files/javascript(5).php"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    
+    <div class="env-prod">
+        <nav class="fixed-top navbar navbar-light bg-white navbar-expand moodle-has-zindex" aria-label="Site navigation">
+            <div class="header-main row">
+                    <div class="nav-toggle" data-region="drawer-toggle">
+                        <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn float-sm-left m-r-1 btn-secondary" id="hamburger-wrapper" data-action="toggle-drawer" data-side="left">
+                          <div id="hamburger-icon" class="change-hamburger-icon">
+                            <div id="hamburger-icon-bg"></div>
+                            <div class="hamburger-icon-bar hamburger-icon-bar1"></div>
+                            <div class="hamburger-icon-bar hamburger-icon-bar3"></div>
+                            <div class="hamburger-icon-bar hamburger-icon-bar2"></div>
+                          </div>
+                          <span class="sr-only">
+                            Side panel
+                          </span>
+                        </button>
+                    </div>
+                <div class="header-logo">
+                    
+                    <a href="https://ccle.ucla.edu/">
+                        <img class="icon " alt="ucla-logo" title="ucla-logo" src="./201A-COMSCI31-1_ Project 1_files/ucla-logo.png">
+                        <span class="logo-ccle">CCLE</span>
+                    </a>
+                    <span class="logo-system-name-vertical-bar">| </span>
+                    <a class="logo-system-name" href="https://ccle.ucla.edu/course/view/aboutccle">
+                    Shared System
+                    </a>                </div>
+                <div class="header-login ml-auto mr-3 mb-2">
+                    <div class="header-btn-group logininfo d-flex">
+                        <!-- navbar_plugin_output -->
+                        
+                        <!-- help_feedback_link -->
+                        <div class="btn-header btn-help-feedback mr-1"><div class="action-menu moodle-actionmenu nowrap-items" id="action-menu-1" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar d-flex mt-auto" id="action-menu-1-menubar" role="menubar">
+
+            <div class="dropdown d-inline">
+    <a href="https://ccle.ucla.edu/mod/assign/view.php?id=2992559#" class=" dropdown-toggle" id="dropdown-1" title="Need Help" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="need_help">Need Help</span><i class="fa fa-question-circle fa-fw"></i><b class="caret"></b></a>
+        <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
+            <a href="https://ccle.ucla.edu/blocks/ucla_help/index.php?course=86347" class="dropdown-item menu-action" role="menuitem" data-title="helprequest,theme_uclashared" aria-labelledby="actionmenuaction-1"><img class="icon " alt="Submit a help request" title="Submit a help request" src="./201A-COMSCI31-1_ Project 1_files/helprequest.png"><span class="menu-action-text" id="actionmenuaction-1">Submit a help request</span></a><div class="dropdown-divider"></div><a href="https://docs.ccle.ucla.edu/" class="dropdown-item menu-action" role="menuitem" data-title="selfhelp,theme_uclashared" aria-labelledby="actionmenuaction-2"><img class="icon " alt="View self help articles" title="View self help articles" src="./201A-COMSCI31-1_ Project 1_files/selfhelp.png"><span class="menu-action-text" id="actionmenuaction-2">View self help articles</span></a><a href="https://docs.ccle.ucla.edu/index.php?title=Tips_and_Updates" class="dropdown-item menu-action" role="menuitem" data-title="tipsupdates,theme_uclashared" aria-labelledby="actionmenuaction-3"><img class="icon " alt="Read tips &amp;amp; updates" title="Read tips &amp;amp; updates" src="./201A-COMSCI31-1_ Project 1_files/tipsupdates.png"><span class="menu-action-text" id="actionmenuaction-3">Read tips &amp; updates</span></a><div class="dropdown-divider"></div><a href="https://ccle.ucla.edu/course/request.php" class="dropdown-item menu-action" role="menuitem" data-title="requestsite,theme_uclashared" aria-labelledby="actionmenuaction-4"><img class="icon " alt="Request a site" title="Request a site" src="./201A-COMSCI31-1_ Project 1_files/requestsite.png"><span class="menu-action-text" id="actionmenuaction-4">Request a site</span></a>
+        </div>
+</div>
+
+
+        </div>
+
+</div></div>
+                        <!-- user_menu -->
+                        <div class="usermenu ml-auto mr-1 navbar-collapse"><div class="action-menu moodle-actionmenu nowrap-items" id="action-menu-2" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar d-flex mt-auto" id="action-menu-2-menubar" role="menubar">
+
+            <div class="dropdown d-inline">
+    <a href="https://ccle.ucla.edu/mod/assign/view.php?id=2992559#" class=" dropdown-toggle" id="dropdown-2" title="NARKMANEE, SITTIPHAT" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="userbutton"><span class="usertext mr-1 mt-auto">NARKMANEE, SITTIPHAT</span><span class="avatars"><span class="avatar current"><img src="./201A-COMSCI31-1_ Project 1_files/f2.jpg" class="userpicture" width="35" height="35" aria-hidden="true"></span></span></span><b class="caret"></b></a>
+        <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-2-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-2" role="menu" data-align="tr-br">
+            <a href="https://ccle.ucla.edu/my/" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-5"><i class="icon fa fa-tachometer fa-fw " title="My sites" aria-label="My sites"></i><span class="menu-action-text" id="actionmenuaction-5">My sites</span></a><div class="dropdown-divider"></div><a href="https://ccle.ucla.edu/user/profile.php?id=190882" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-6"><i class="icon fa fa-user fa-fw " title="Profile" aria-label="Profile"></i><span class="menu-action-text" id="actionmenuaction-6">Profile</span></a><a href="https://ccle.ucla.edu/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-7"><i class="icon fa fa-table fa-fw " title="Grades" aria-label="Grades"></i><span class="menu-action-text" id="actionmenuaction-7">Grades</span></a><a href="https://ccle.ucla.edu/user/preferences.php" class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-8"><i class="icon fa fa-wrench fa-fw " title="Preferences" aria-label="Preferences"></i><span class="menu-action-text" id="actionmenuaction-8">Preferences</span></a><div class="dropdown-divider"></div><a href="https://ccle.ucla.edu/login/logout.php?sesskey=2uuu7LDFvp" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-9"><i class="icon fa fa-sign-out fa-fw " title="Log out" aria-label="Log out"></i><span class="menu-action-text" id="actionmenuaction-9">Log out</span></a>
+        </div>
+</div>
+
+
+        </div>
+
+</div></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="page" class="container-fluid">
+        
+        <header id="page-header" class="row"><div class="col-12 pb-2"><div class="card"><div class="card-body"><div class="clearfix w-100 float-sm-left d-flex flex-wrap" id="page-navbar"><div class="breadcrumb-nav"><nav aria-label="Navigation bar">
+    <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="https://ccle.ucla.edu/my/">My sites</a>
+                </li>
+        
+                <li class="breadcrumb-item">
+                    <a href="https://ccle.ucla.edu/course/view.php?id=86347">201A-COMSCI31-1</a>
+                </li>
+        
+                <li class="breadcrumb-item">
+                    <a href="https://ccle.ucla.edu/course/view.php?id=86347&amp;section=1">Week 1</a>
+                </li>
+        
+                <li class="breadcrumb-item">
+                    <a href="https://ccle.ucla.edu/mod/assign/view.php?id=2992559" aria-current="page">Project 1</a>
+                </li>
+        </ol>
+</nav></div><div class="ml-auto weeks-display label-summer"><span class="session">Summer 2020 - Session A</span><span class="week">Week 2</span></div></div><div id="course-header"></div><div class="page-context-header-container float-sm-left"><div class="page-context-header"><div class="page-header-headings"><h1>Introduction to Computer Science I</h1></div></div></div><div class="clearfix float-sm-left course-details"><div class="site-meta"><span class="label-term label-summer">Summer 2020</span> - <span class="reg-courses">COM SCI31-1</span> - STAHL</div></div><div class="d-md-block float-sm-right"><div class="d-none d-md-block float-sm-right"></div></div></div></div></div></header>
+        <div id="page-content" class="row pb-3">
+            <div id="region-main-box" class="col-12">
+                <section id="region-main" aria-label="Content">
+
+                    <span class="notifications" id="user-notifications"></span>
+                    <div role="main"><span id="maincontent"></span><h2>Project 1</h2><div id="intro" class="box py-3 generalbox boxaligncenter"><div class="no-overflow"><div align="center">
+<h2><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">Programming Assignment 1</span><br><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+Getting Started with C++</span></h2>
+<p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+</span><strong><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">Time due: 9:00 PM Monday, June 29th</span></strong></p>
+</div>
+<p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+The purpose of this assignment is to have you start learning how to use the
+Visual C++ and either Xcode or g++ environments and understand a variety
+of programming errors.
+</span></p>
+<p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+Here's what you are to do:
+</span></p>
+<ol>
+<li><p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+(optional) Obtain a copy of </span><a href="https://ccle.ucla.edu/mod/page/view.php?id=2992515"><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">Visual C++</span></a><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;"> and
+install it.  You don't need to do this if you prefer to do your Visual C++
+work on the SEASnet computers (in the lab or remotely).  If you will be
+using another development environment (such as
+</span><a href="https://ccle.ucla.edu/mod/page/view.php?id=2992516"><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">Xcode on a Mac</span></a><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">), use this project to get
+comfortable using it as well as Visual C++.
+</span></p></li>
+<li><p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+Enter </span><a href="https://ccle.ucla.edu/mod/assign/view.php?id=2992559#program"><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">this C++ program</span></a><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;"> into your development
+environment.  Do not change the program.
+</span></p></li>
+<li><p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+Build the executable from the program.  (Fix any typos you may have made
+when entering the program.)
+</span></p></li>
+<li><p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+Execute the program with a variety of reasonable input integers to see if
+it runs as one would expect from reading the source code.  (If the Visual
+C++ console window disappears when your program finishes executing, before
+you have a chance to see the output, you probably forgot to do step 4 from
+the </span><a href="https://ccle.ucla.edu/mod/page/view.php?id=2992515"><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">Visual C++ 2019 writeup</span></a><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">, or
+you started execution by selecting the Start Debugging item from the Debug
+menu or by double-clicking on the .exe file.  What you want to do is
+select the Start Without Debugging item from the Debug menu; if there is
+no such menu item, fix it as directed
+in step 7 of the writeup.)
+</span></p></li>
+<li><p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+Using the program as given, run it with input integers that cause it to
+produce incorrect, unusual, or nonsensical results.  (Notice we're saying
+to try input </span><em><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">integers</span></em><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">, not input like </span><code><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">124765.23</span></code><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;"> or
+</span><code><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">strawberry</span></code><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">.)
+</span></p></li>
+<li><p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+Starting from the program as given, introduce into the source code at
+least one error that someone might make that, while not preventing a
+successful build, causes the program when it runs to produce incorrect
+results from reasonable input.
+</span></p></li>
+<li><p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+Again starting from the program as given, introduce at least two
+distinct types of mistakes that someone might make, each of which would
+cause the program to fail to compile correctly.
+</span></p></li>
+</ol>
+<p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+You should create a separate project for each of steps 2, 6, and 7, since
+you're not allowed to have multiple files in the same project if more than
+one has a main routine.
+</span></p>
+<p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+In addition to running the programs under Visual C++, run them using clang++
+or g++ (perhaps using </span><a href="https://ccle.ucla.edu/mod/page/view.php?id=2992516"><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">Xcode on a Mac</span></a><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;"> or
+</span><a href="https://ccle.ucla.edu/mod/page/view.php?id=2992520"><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">g++ with Linux</span></a><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">).
+</span></p>
+<p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+What you will turn in for this assignment is a compressed file in zip format
+containing exactly four files:
+</span></p>
+<ol>
+<li><p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+A file named </span><strong><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">original.cpp</span></strong><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;"> that contains the program as
+given.
+</span></p></li>
+<li><p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+A file named </span><strong><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">logic_error.cpp</span></strong><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;"> with the program you produced
+in step 6.
+</span></p></li>
+<li><p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+A file named </span><strong><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">compile_error.cpp</span></strong><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;"> with the program you
+produced in step 7.
+</span></p></li>
+<li><p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+A file named </span><strong><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">report.doc</span></strong><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;"> or </span><strong><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">report.docx</span></strong><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;"> (in
+Microsoft Word format) or </span><strong><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">report.txt</span></strong><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;"> (an ordinary text
+file) that describes the input you provided in step 5 and each of the
+errors you introduced into the logic_error.cpp and compile_error.cpp
+programs.  Briefly discuss any error messages the compiler reported, and
+incorrect, unusual, or nonsensical results.  This report may well end up
+being much less than a page long. &nbsp;Please be sure to include your </span><b><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">name</span></b><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;"> and your </span><b><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">UCLA Id number</span></b><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;"> in this document.</span></p></li>
+</ol>
+<p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+The zip file itself may be named whatever you like.
+</span></p><p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+Do </span><strong><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">not</span></strong><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;"> include anything else in the zip file.  (Some Windows
+users seem not to be aware of Windows filename
+extensions, so end up putting the wrong files in their zip file.)  To
+create a zip file on a SEASnet machine, you can select the four files you
+want to turn in, right click, and select "Send To / Compressed (zipped)
+Folder". Under Mac OS X, copy the files into a new folder, select the
+folder in Finder, and select File / Compress "</span><em><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">folderName</span></em><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">"; make
+sure you </span><em><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">copied</span></em><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;"> the files into the folder instead of creating
+aliases to the files.
+</span></p><p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+We will be using software tools to help us grade your projects, so there are
+certain requirements you must meet for the tools to work:  </span><strong><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">The zip
+file you turn in for this project must have </span><em><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">exactly</span></em><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;"> four files in
+it, with </span><em><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">exactly</span></em><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;"> the names indicated.  If you do not follow these
+requirements, your score on this project will be </span><em><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">zero</span></em><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">.</span></strong><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+"Do you mean that if I do everything right except misspell a file name or
+include an extra file, I'll get no points whatsoever?"  Yes.  That seems
+harsh, but attention to detail is an important skill in this field.  A
+draconian grading policy certainly encourages you to develop this skill.
+</span></p><p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+The only exception to the requirement that the zip file contain exactly four
+files of the indicated names is that if you create the zip file under Mac OS X,
+it is acceptable if it contains the additional files that the Mac OS X zip
+utility sometimes introduces:  </span><code><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">__MACOSX</span></code><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">, </span><code><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">.DS_Store</span></code><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">,
+and names starting with </span><code><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">._</span></code><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;"> that contain your file names.
+</span></p><p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+By June 29, there will be links on the class webpage that will enable you
+</span><!--
+The <a href="../../Submit/submission.cgi?asst=1">turn in Project 1</a> link
+on the class webpage enables you
+--><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+to turn in your zip file electronically.  Turn in the file by the due time
+above.  Remember that most computing tasks take longer than expected; this
+applies especially to steps 1, 2, and 3 above.  Start this assignment now!
+</span></p><p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+Use this project as an opportunity to learn what happens when you make
+mistakes.  After you've turned in what's required for this project, play
+around.  Introduce a mistake into the program and see what happens.  Fix
+it.  Introduce a different mistake and see what happens then.  Fix it.
+Keep doing this so you can see the kinds of problems that might arise when
+you develop your own programs and what the compilers say for each particular
+problem (if they even detect them at all).  See what happens if you make more
+than one mistake in the program.  Will they all be detected?  Will an
+earlier mistake interfere with the reporting of a later one?
+</span></p><p><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">
+</span><a id="program"><span class="" style="font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">Here is the C++ program:</span></a>
+</p>
+<pre><p>// Code for Project 1</p><p><span>// COVID-19
+</span><span style="font-size: 12.6px;">#include &lt;iostream&gt;
+</span><b style="font-size: 12.6px;">using</b><span style="font-size: 12.6px;"> </span><b style="font-size: 12.6px;">namespace</b><span style="font-size: 12.6px;"> std; &nbsp; </span><i style="font-size: 12.6px;">/</i><span style="font-size: 12.6px;">/ pp. 37-38 in Savitch book explain this line
+</span><span style="font-size: 12.6px;">
+<b>int</b></span><span style="font-size: 12.6px;"> main()
+</span><span style=""><span style=""><span style="font-size: 12.6px;">{</span>
+</span></span><span style="font-size: 12.6px;">&nbsp; &nbsp; </span><b style="font-size: 12.6px;">int</b><span style="font-size: 12.6px;"> totalTests;
+</span><span style="font-size: 12.6px;">&nbsp; &nbsp; </span><b style="font-size: 12.6px;">int</b><span style="font-size: 12.6px;"> positives, falsePositives;
+</span><span style="font-size: 12.6px;">&nbsp; &nbsp; </span><b style="font-size: 12.6px;">int</b><span style="font-size: 12.6px;"> negatives, falseNegatives;</span></p><p style="font-size: 12.6px;"></p><p>&nbsp; &nbsp; cout &lt;&lt; "How many tests for COVID-19 were run? ";
+&nbsp; &nbsp; cin &gt;&gt; totalTests;
+&nbsp; &nbsp; cout &lt;&lt; "How many of these were positive for COVID-19? ";
+&nbsp; &nbsp; cin &gt;&gt; positives;
+&nbsp; &nbsp; cout &lt;&lt; "How many of these were false positives? ";
+&nbsp; &nbsp; cin &gt;&gt; falsePositives;
+&nbsp; &nbsp; cout &lt;&lt; "How many of these were negative for COVID-19? ";
+&nbsp; &nbsp; cin &gt;&gt; negatives;
+&nbsp; &nbsp; cout &lt;&lt; "How many of these were false negatives? ";
+&nbsp; &nbsp; cin &gt;&gt; falseNegatives;</p><p>&nbsp; &nbsp; <b>double</b> pctPos = (1.0 * positives - falsePositives) / positives * 100.0;
+&nbsp; &nbsp; <b>double</b> pctNeg = (1.0 * negatives - falseNegatives) / negatives * 100.0;</p><p>&nbsp; &nbsp; cout.setf(ios::fixed);&nbsp; // see pp. 30-31 in Savitch book
+&nbsp; &nbsp; cout.precision(1);</p><p>&nbsp; &nbsp; cout &lt;&lt; endl;
+&nbsp; &nbsp; cout &lt;&lt; pctPos &lt;&lt; "% of the " &lt;&lt; positives &lt;&lt; " positive tests were actually positive." &lt;&lt; endl;
+&nbsp; &nbsp; cout &lt;&lt; pctNeg &lt;&lt; "% of the " &lt;&lt; negatives &lt;&lt; " negative tests were actually negative." &lt;&lt; endl;
+&nbsp; &nbsp; cout &lt;&lt; endl;</p><p>&nbsp; &nbsp; <b>if</b> (positives + negatives != totalTests)
+&nbsp; &nbsp; {
+&nbsp; &nbsp; &nbsp; &nbsp; cout &lt;&lt; "Looks like some of these data values don't make sense." &lt;&lt; endl;
+&nbsp; &nbsp; }</p><p></p><p style=""><span style="font-size: 12.6px;">    </span><b style="font-size: 13.125px;">return</b><span style="font-size: 13.125px;">(0);</span></p><p></p><p><span style="font-size: 12.6px;">}</span></p><p></p></pre></div></div><div class="submissionstatustable"><h3>Submission status</h3><div class="box py-3 boxaligncenter submissionsummarytable"><table class="generaltable">
+<tbody><tr class="">
+<th class="cell c0" style="" scope="row">Submission status</th>
+<td class="submissionstatusdraft cell c1 lastcol" style="">Draft (not submitted for grading)</td>
+</tr>
+<tr class="">
+<th class="cell c0" style="" scope="row">Grading status</th>
+<td class="submissionnotgraded cell c1 lastcol" style="">Not graded</td>
+</tr>
+<tr class="">
+<th class="cell c0" style="" scope="row">Due date</th>
+<td class="cell c1 lastcol" style="">Monday, 29 June 2020, 9:00 PM PDT</td>
+</tr>
+<tr class="">
+<th class="cell c0" style="" scope="row">Time remaining</th>
+<td class="cell c1 lastcol" style="">2 hours 32 mins</td>
+</tr>
+<tr class="">
+<th class="cell c0" style="" scope="row">Last modified</th>
+<td class="cell c1 lastcol" style="">Monday, 29 June 2020, 6:22 PM PDT</td>
+</tr>
+<tr class="">
+<th class="cell c0" style="" scope="row">File submissions</th>
+<td class="cell c1 lastcol" style=""><div class="box py-3 boxaligncenter plugincontentsummary summary_assignsubmission_file_4127579"><div id="assign_files_tree5efa9511b2bf316"><div class="ygtvitem" id="ygtv0"><div class="ygtvchildren" id="ygtvc0"><div class="ygtvitem" id="ygtv1"><table id="ygtvtableel1" border="0" cellpadding="0" cellspacing="0" class="ygtvtable ygtvdepth0 ygtv-expanded ygtv-highlight0"><tbody><tr class="ygtvrow"><td id="ygtvt1" class="ygtvcell ygtvln"><a href="https://ccle.ucla.edu/mod/assign/view.php?id=2992559#" class="ygtvspacer">&nbsp;</a></td><td id="ygtvcontentel1" class="ygtvcell ygtvhtml ygtvcontent"><div><div class="fileuploadsubmission"><img class="icon icon" alt="Project_1.zip" title="Project_1.zip" src="./201A-COMSCI31-1_ Project 1_files/archive.png"> <a target="_blank" href="https://ccle.ucla.edu/pluginfile.php/3430496/assignsubmission_file/submission_files/4127579/Project_1.zip?forcedownload=1">Project_1.zip</a>   </div><div class="fileuploadsubmissiontime">29 June 2020, 6:22 PM PDT</div></div></td></tr></tbody></table><div class="ygtvchildren" id="ygtvc1" style="display:none;"></div></div></div></div></div></div></td>
+</tr>
+<tr class="lastrow">
+<th class="cell c0" style="" scope="row">Submission comments</th>
+<td class="cell c1 lastcol" style=""><div class="box py-3 boxaligncenter plugincontentsummary summary_assignsubmission_comments_4127579"><div class="commentscontainer"><div style="display:none" id="cmt-tmpl"><div class="comment-message"><div class="comment-message-meta mr-3"><span class="picture">___picture___</span><span class="user">___name___</span> - <span class="time">___time___</span></div><div class="text">___content___</div></div></div><div class="mdl-left"><a class="showcommentsnonjs" href="https://ccle.ucla.edu/mod/assign/view.php?id=2992559&amp;rownum=0&amp;useridlistid=5efa9511a997b983893278&amp;action&amp;nonjscomment=1&amp;comment_itemid=4127579&amp;comment_context=3430496&amp;comment_component=assignsubmission_comments&amp;comment_area=submission_comments">Show comments</a><a class="comment-link" id="comment-link-5efa9511b7776" href="https://ccle.ucla.edu/mod/assign/view.php?id=2992559#" role="button" aria-expanded="false"><i class="icon fa fa-caret-right fa-fw " title="Comments" aria-label="Comments"></i><span id="comment-link-text-5efa9511b7776">Comments (0)</span></a><div id="comment-ctrl-5efa9511b7776" class="comment-ctrl"><ul id="comment-list-5efa9511b7776" class="comment-list"><li class="first"></li></ul><div id="comment-pagination-5efa9511b7776" class="comment-pagination"></div><div class="comment-area"><div class="db"><textarea name="content" rows="2" id="dlg-content-5efa9511b7776" aria-label="Add a comment..." cols="20" style="color: grey;"></textarea></div><div class="fd" id="comment-action-5efa9511b7776"><a id="comment-action-post-5efa9511b7776" href="https://ccle.ucla.edu/mod/assign/view.php?id=2992559#">Save comment</a><span> | </span><a id="comment-action-cancel-5efa9511b7776" href="https://ccle.ucla.edu/mod/assign/view.php?id=2992559#">Cancel</a></div></div><div class="clearer"></div></div></div></div></div></td>
+</tr>
+</tbody>
+</table>
+</div><div class="box py-3 generalbox submissionaction"><div class="singlebutton">
+    <form method="get" action="https://ccle.ucla.edu/mod/assign/view.php">
+            <input type="hidden" name="id" value="2992559">
+            <input type="hidden" name="action" value="editsubmission">
+        <button type="submit" class="btn btn-secondary" id="single_button5efa9511b2bf319" title="">Edit/Add submission</button>
+    </form>
+</div><div class="singlebutton">
+    <form method="get" action="https://ccle.ucla.edu/mod/assign/view.php">
+            <input type="hidden" name="id" value="2992559">
+            <input type="hidden" name="action" value="removesubmissionconfirm">
+        <button type="submit" class="btn btn-secondary" id="single_button5efa9511b2bf320" title="">Remove submission</button>
+    </form>
+</div><div class="box py-3 boxaligncenter submithelp"><span></span></div></div><div class="box py-3 generalbox submissionaction"><div class="singlebutton">
+    <form method="get" action="https://ccle.ucla.edu/mod/assign/view.php">
+            <input type="hidden" name="id" value="2992559">
+            <input type="hidden" name="action" value="submit">
+        <button type="submit" class="btn btn-secondary" id="single_button5efa9511b2bf321" title="">Submit for grading</button>
+    </form>
+</div><div class="box py-3 boxaligncenter submithelp">Once this assignment is submitted you will not be able to make any more changes.</div></div></div></div>
+                    <div class="mt-5 mb-1 activity-navigation container-fluid">
+<div class="row">
+    <div class="col-md-4">        <div class="float-left">
+                <a href="https://ccle.ucla.edu/mod/resource/view.php?id=2992558&amp;forceview=1" id="prev-activity-link" class="btn btn-link" title="Worksheet 1 Solutions">◄ Worksheet 1 Solutions</a>
+
+        </div>
+</div>
+    <div class="col-md-4">        <div class="mdl-align">
+            <div class="urlselect">
+    <form method="post" action="https://ccle.ucla.edu/course/jumpto.php" class="form-inline" id="url_select_f5efa9511b2bf315">
+        <input type="hidden" name="sesskey" value="2uuu7LDFvp">
+            <label for="jump-to-activity" class="sr-only">
+                Jump to...
+            </label>
+        <select id="jump-to-activity" class="custom-select urlselect" name="jump">
+                    <option value="" selected="">Jump to...</option>
+                    <option value="/mod/forum/view.php?id=2786049&amp;forceview=1">Announcements</option>
+                    <option value="/mod/forum/view.php?id=2992505&amp;forceview=1">Class Discussion</option>
+                    <option value="/mod/page/view.php?id=2992506&amp;forceview=1">CS 31 Summer 2020 Office Hours</option>
+                    <option value="/mod/url/view.php?id=3089169&amp;forceview=1">Zoom Lecture Link</option>
+                    <option value="/mod/url/view.php?id=3075936&amp;forceview=1">Instructor:Howard's Monday Office Hours Zoom Link</option>
+                    <option value="/mod/url/view.php?id=3075941&amp;forceview=1">Instructor:Howard's Wednesday Office Hours Zoom Link</option>
+                    <option value="/mod/url/view.php?id=3075948&amp;forceview=1">TA:Chi's Thursday Office Hour Zoom Link</option>
+                    <option value="/mod/url/view.php?id=3075952&amp;forceview=1">TA:Youfu's Monday Office Hours Zoom Link</option>
+                    <option value="/mod/url/view.php?id=3075959&amp;forceview=1">TA:Rosa's Tuesday Office Hours Zoom Link</option>
+                    <option value="/mod/url/view.php?id=3075962&amp;forceview=1">TA:Rosa's Thursday Office Hours Zoom Link</option>
+                    <option value="/mod/url/view.php?id=3089202&amp;forceview=1">Discussion Section 1A - Fridays 10-Noon - TA: Chi Zhang</option>
+                    <option value="/mod/url/view.php?id=3089203&amp;forceview=1">Discussion Section 1B - Fridays Noon-2 - TA: Rosa Garza</option>
+                    <option value="/mod/url/view.php?id=3089208&amp;forceview=1">Discussion Section 1C - Fridays 10-Noon - TA: Youfu Li</option>
+                    <option value="/mod/page/view.php?id=2992507&amp;forceview=1">Academic Integrity</option>
+                    <option value="/mod/assign/view.php?id=2992509&amp;forceview=1">Academic Honesty Agreement And Recordkeeping</option>
+                    <option value="/mod/resource/view.php?id=2992512&amp;forceview=1">Wikibooks - C++</option>
+                    <option value="/mod/page/view.php?id=2992513&amp;forceview=1">CS 31 General Programming Project Requirements</option>
+                    <option value="/mod/page/view.php?id=2992515&amp;forceview=1">Visual Studio 2019</option>
+                    <option value="/mod/page/view.php?id=2992519&amp;forceview=1">XCode On A Mac - XCode 11</option>
+                    <option value="/mod/resource/view.php?id=2992523&amp;forceview=1">Opening</option>
+                    <option value="/mod/url/view.php?id=2992524&amp;forceview=1">Bjarne Stroustrup Describes Why He Created C++</option>
+                    <option value="/mod/resource/view.php?id=2992525&amp;forceview=1">Lecture 1 Notes Handout</option>
+                    <option value="/mod/resource/view.php?id=2992528&amp;forceview=1">DataRepresentation Notes Handouts</option>
+                    <option value="/mod/resource/view.php?id=2992541&amp;forceview=1">HelloWorld VS2019</option>
+                    <option value="/mod/resource/view.php?id=2992544&amp;forceview=1">HelloWorld XCode10</option>
+                    <option value="/mod/resource/view.php?id=2992547&amp;forceview=1">Notes From Class - Monday</option>
+                    <option value="/mod/kalvidpres/view.php?id=3111829&amp;forceview=1">Monday Streaming Lecture</option>
+                    <option value="/mod/resource/view.php?id=2992549&amp;forceview=1">Notes From Class - Wednesday</option>
+                    <option value="/mod/kalvidpres/view.php?id=3115362&amp;forceview=1">Wednesday Streaming Lecture</option>
+                    <option value="/mod/resource/view.php?id=2992557&amp;forceview=1">Worksheet 1</option>
+                    <option value="/mod/resource/view.php?id=2992558&amp;forceview=1">Worksheet 1 Solutions</option>
+                    <option value="/mod/page/view.php?id=2992560&amp;forceview=1">Windows filename extensions</option>
+                    <option value="/mod/questionnaire/view.php?id=3035025&amp;forceview=1">Time Zone Questionnaire</option>
+                    <option value="/mod/questionnaire/view.php?id=3095908&amp;forceview=1">Operating System Questionnaire</option>
+                    <option value="/mod/resource/view.php?id=3119383&amp;forceview=1">Discussion 1A Week 1 Notes</option>
+                    <option value="/mod/kalvidpres/view.php?id=3119413&amp;forceview=1">Discussion 1A Streaming Section</option>
+                    <option value="/mod/resource/view.php?id=3120272&amp;forceview=1">Discussion 1B Slides</option>
+                    <option value="/mod/kalvidres/view.php?id=3119662&amp;forceview=1">Discussion 1B Streaming Section</option>
+                    <option value="/mod/kalvidpres/view.php?id=3119414&amp;forceview=1">Discussion 1C Streaming Section</option>
+                    <option value="/mod/resource/view.php?id=2992563&amp;forceview=1">Lecture 2 Notes Pages</option>
+                    <option value="/mod/resource/view.php?id=2992586&amp;forceview=1">Selection VS2019</option>
+                    <option value="/mod/resource/view.php?id=2992590&amp;forceview=1">Selection XCode10</option>
+                    <option value="/mod/kalvidpres/view.php?id=3122021&amp;forceview=1">Monday Streaming Lecture</option>
+                    <option value="/mod/resource/view.php?id=2992594&amp;forceview=1">Notes From Class - Monday</option>
+                    <option value="/mod/resource/view.php?id=2992598&amp;forceview=1">SEASNet Demonstration</option>
+                    <option value="/mod/assign/view.php?id=2992600&amp;forceview=1">Project 2</option>
+                    <option value="/mod/lti/view.php?id=2995572&amp;forceview=1">CodeBoard for Project2</option>
+                    <option value="/mod/page/view.php?id=2992601&amp;forceview=1">Project 2 FAQ</option>
+                    <option value="/mod/page/view.php?id=2992605&amp;forceview=1">Some Things About Strings</option>
+                    <option value="/mod/page/view.php?id=2992606&amp;forceview=1">Project 2 Accompanying Homework</option>
+        </select>
+            <noscript>
+                <input type="submit" class="btn btn-secondary ml-1" value="Go">
+            </noscript>
+    </form>
+</div>
+
+        </div>
+</div>
+    <div class="col-md-4">        <div class="float-right">
+                <a href="https://ccle.ucla.edu/mod/page/view.php?id=2992560&amp;forceview=1" id="next-activity-link" class="btn btn-link" title="Windows filename extensions">Windows filename extensions ►</a>
+
+        </div>
+</div>
+</div>
+</div>
+                    
+
+                </section>
+            </div>
+        </div>
+    </div>
+    
+    <div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex " aria-hidden="false" tabindex="-1">
+        <nav class="list-group" aria-label="">
+        <ul>
+                    <li>
+                        <a class="list-group-item list-group-item-action    " href="https://ccle.ucla.edu/course/view.php?id=86347" data-key="coursehome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                    <span class="media-body ">201A-COMSCI31-1</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action    hascontent " href="https://ccle.ucla.edu/local/ucla_syllabus/index.php?id=86347" data-key="5" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="86347">
+                            <div class="ml-0">
+                                <div class="media">
+                                    <span class="media-body ">Syllabus</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action    " href="https://ccle.ucla.edu/course/view.php?id=86347&amp;section=0" data-key="64232343" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="86347">
+                            <div class="ml-0">
+                                <div class="media">
+                                    <span class="media-body ">Site info</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action active   " href="https://ccle.ucla.edu/course/view.php?id=86347&amp;section=1" data-key="64232344" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="86347">
+                            <div class="ml-0">
+                                <div class="media">
+                                    <span class="media-body font-weight-bold">Week 1</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action    " href="https://ccle.ucla.edu/course/view.php?id=86347&amp;section=2" data-key="64232345" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="86347">
+                            <div class="ml-0">
+                                <div class="media">
+                                    <span class="media-body ">Week 2</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action    " href="https://ccle.ucla.edu/course/view.php?id=86347&amp;show_all=1" data-key="showall" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="86347">
+                            <div class="ml-0">
+                                <div class="media">
+                                    <span class="media-body ">Show all</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                </nav>
+                <nav class="list-group mt-1" aria-label="Course apps">
+                <ul>
+                    <li>
+                        <a class="list-group-item list-group-item-action    " href="https://ccle.ucla.edu/course/view.php?id=86347" data-key="courseapps" data-isexpandable="0" data-indent="0" data-showdivider="1" data-type="10" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="86347">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <img class="icon " alt="" aria-hidden="true" src="./201A-COMSCI31-1_ Project 1_files/icon.svg">
+                                        </span>
+                                    <span class="media-body ">Course apps</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action    " href="https://ccle.ucla.edu/mod/lti/view.php?course=86347&amp;ltitypeid=912" data-key="ltimenu-912" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="50" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="86347">
+                            <div class="ml-0">
+                                <div class="media">
+                                    <span class="media-body ">UCLA Store course material</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action    " href="https://ccle.ucla.edu/mod/lti/view.php?course=86347&amp;ltitypeid=1922" data-key="ltimenu-1922" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="50" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="86347">
+                            <div class="ml-0">
+                                <div class="media">
+                                    <span class="media-body ">Zoom Video Conferencing</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                </nav>
+                <nav class="list-group mt-1" aria-label="ucla_library_reserves">
+                <ul>
+                    <li>
+                        <a class="list-group-item list-group-item-action    library-reserve-link " href="https://ccle.ucla.edu/blocks/ucla_library_reserves/index.php?courseid=86347" data-key="7" data-isexpandable="0" data-indent="0" data-showdivider="1" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="86347">
+                            <div class="ml-0">
+                                <div class="media">
+                                    <span class="media-body ">Library resources</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action    " href="https://ccle.ucla.edu/blocks/ucla_media/kalvidres.php?courseid=86347" data-key="8" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="86347">
+                            <div class="ml-0">
+                                <div class="media">
+                                    <span class="media-body ">Media resources</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action    myengineer-link " href="https://my.engineering.ucla.edu/" data-key="9" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="86347">
+                            <div class="ml-0">
+                                <div class="media">
+                                    <span class="media-body ">MyEngineering</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                </nav>
+                <nav class="list-group mt-1" aria-label="grades">
+                <ul>
+                    <li>
+                        <a class="list-group-item list-group-item-action    " href="https://be.my.ucla.edu/login/directLink.aspx?featureID=75&amp;term=201&amp;srs=187093910" data-key="grades" data-isexpandable="0" data-indent="0" data-showdivider="1" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="86347">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-table fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                    <span class="media-body ">Grades</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-group-item list-group-item-action    " href="https://ccle.ucla.edu/blocks/ucla_course_download/view.php?courseid=86347" data-key="coursedownload" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="86347">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-download fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                    <span class="media-body ">Download course material</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                </nav>
+                <nav class="list-group mt-1" aria-label="Site">
+                <ul>
+                    <li>
+                        <a class="list-group-item list-group-item-action    " href="https://ccle.ucla.edu/my/" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="1" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0">
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"></i>
+                                        </span>
+                                    <span class="media-body ">My sites</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+        </ul>
+        </nav>
+    </div>
+    <footer id="page-footer" class="py-3 bg-dark text-light">
+        <div class="container">
+            <div id="course-footer"></div>
+    
+            <div id="footer-content">
+                <div class="tool_usertours-resettourcontainer"></div>
+    
+                <span id="copyright-info">
+                    © 2020 UC Regents
+                </span>
+                <ul id="footer-nav">
+                    <li><a href="https://ccle.ucla.edu/course/view/aboutccle?sectionid=926">Contact</a></li><li><a href="https://ccle.ucla.edu/course/view/aboutccle">About</a></li><li><a href="https://ccle.ucla.edu/theme/uclashared/view.php?page=privacy">Privacy</a></li><li><a href="https://ccle.ucla.edu/theme/uclashared/view.php?page=copyright">Copyright</a></li><li><a href="https://ccle.ucla.edu/course/view/aboutccle?sectionid=6996">UCLA links</a></li><li> | </li><li><a href="http://www.ucla.edu/" target="_blank">UCLA</a></li><li><a href="http://www.registrar.ucla.edu/" target="_blank">Registrar</a></li><li><a href="http://my.ucla.edu/" target="_blank">MyUCLA</a></li><li><a href="http://www.ucla.edu/accessibility" target="_blank">Accessibility</a></li><li><a href="http://www.counseling.ucla.edu/" target="_blank">Couns/PsychSvc (CAPS)</a></li>
+                </ul>
+    
+            </div>
+            <a href="https://docs.ccle.ucla.edu/index.php?title=CCLE_Mobile_App">Get the mobile app</a>
+            
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50836333-1', 'auto');
+  ga('send', 'pageview');
+
+</script><script>
+//<![CDATA[
+var require = {
+    baseUrl : 'https://ccle.ucla.edu/lib/requirejs.php/1592919301/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://ccle.ucla.edu/lib/javascript.php/1592919301/lib/jquery/jquery-3.4.1.min',
+        jqueryui: 'https://ccle.ucla.edu/lib/javascript.php/1592919301/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://ccle.ucla.edu/lib/javascript.php/1592919301/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script src="./201A-COMSCI31-1_ Project 1_files/javascript(6).php"></script>
+<script>
+//<![CDATA[
+M.util.js_pending("core/first");require(['core/first'], function() {
+require(['core/prefetch']);
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://ccle.ucla.edu/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage('en', {
+  "Audio Player": "Audio Player",
+  "Video Player": "Video Player",
+  "Play": "Play",
+  "Pause": "Pause",
+  "Replay": "Replay",
+  "Current Time": "Current Time",
+  "Duration": "Duration",
+  "Remaining Time": "Remaining Time",
+  "Stream Type": "Stream Type",
+  "LIVE": "LIVE",
+  "Seek to live, currently behind live": "Seek to live, currently behind live",
+  "Seek to live, currently playing live": "Seek to live, currently playing live",
+  "Loaded": "Loaded",
+  "Progress": "Progress",
+  "Progress Bar": "Progress Bar",
+  "progress bar timing: currentTime={1} duration={2}": "{1} of {2}",
+  "Fullscreen": "Fullscreen",
+  "Non-Fullscreen": "Non-Fullscreen",
+  "Mute": "Mute",
+  "Unmute": "Unmute",
+  "Playback Rate": "Playback Rate",
+  "Subtitles": "Subtitles",
+  "subtitles off": "subtitles off",
+  "Captions": "Captions",
+  "captions off": "captions off",
+  "Chapters": "Chapters",
+  "Descriptions": "Descriptions",
+  "descriptions off": "descriptions off",
+  "Audio Track": "Audio Track",
+  "Volume Level": "Volume Level",
+  "You aborted the media playback": "You aborted the media playback",
+  "A network error caused the media download to fail part-way.": "A network error caused the media download to fail part-way.",
+  "The media could not be loaded, either because the server or network failed or because the format is not supported.": "The media could not be loaded, either because the server or network failed or because the format is not supported.",
+  "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.",
+  "No compatible source was found for this media.": "No compatible source was found for this media.",
+  "The media is encrypted and we do not have the keys to decrypt it.": "The media is encrypted and we do not have the keys to decrypt it.",
+  "Play Video": "Play Video",
+  "Close": "Close",
+  "Close Modal Dialog": "Close Modal Dialog",
+  "Modal Window": "Modal Window",
+  "This is a modal window": "This is a modal window",
+  "This modal can be closed by pressing the Escape key or activating the close button.": "This modal can be closed by pressing the Escape key or activating the close button.",
+  ", opens captions settings dialog": ", opens captions settings dialog",
+  ", opens subtitles settings dialog": ", opens subtitles settings dialog",
+  ", opens descriptions settings dialog": ", opens descriptions settings dialog",
+  ", selected": ", selected",
+  "captions settings": "captions settings",
+  "subtitles settings": "subtitles settings",
+  "descriptions settings": "descriptions settings",
+  "Text": "Text",
+  "White": "White",
+  "Black": "Black",
+  "Red": "Red",
+  "Green": "Green",
+  "Blue": "Blue",
+  "Yellow": "Yellow",
+  "Magenta": "Magenta",
+  "Cyan": "Cyan",
+  "Background": "Background",
+  "Window": "Window",
+  "Transparent": "Transparent",
+  "Semi-Transparent": "Semi-Transparent",
+  "Opaque": "Opaque",
+  "Font Size": "Font Size",
+  "Text Edge Style": "Text Edge Style",
+  "None": "None",
+  "Raised": "Raised",
+  "Depressed": "Depressed",
+  "Uniform": "Uniform",
+  "Dropshadow": "Dropshadow",
+  "Font Family": "Font Family",
+  "Proportional Sans-Serif": "Proportional Sans-Serif",
+  "Monospace Sans-Serif": "Monospace Sans-Serif",
+  "Proportional Serif": "Proportional Serif",
+  "Monospace Serif": "Monospace Serif",
+  "Casual": "Casual",
+  "Script": "Script",
+  "Small Caps": "Small Caps",
+  "Reset": "Reset",
+  "restore all settings to the default values": "restore all settings to the default values",
+  "Done": "Done",
+  "Caption Settings Dialog": "Caption Settings Dialog",
+  "Beginning of dialog window. Escape will cancel and close the window.": "Beginning of dialog window. Escape will cancel and close the window.",
+  "End of dialog window.": "End of dialog window.",
+  "{1} is loading.": "{1} is loading.",
+  "Exit Picture-in-Picture": "Exit Picture-in-Picture",
+  "Picture-in-Picture": "Picture-in-Picture"
+});
+
+    });
+});;
+function legacy_activity_onclick_handler_1(e) { e.halt(); window.open('https://ccle.ucla.edu/mod/url/view.php?id=2992524&redirect=1'); return false; };
+function legacy_activity_onclick_handler_2(e) { e.halt(); window.open('https://ccle.ucla.edu/mod/url/view.php?id=2992550&redirect=1'); return false; };
+function legacy_activity_onclick_handler_3(e) { e.halt(); window.open('https://ccle.ucla.edu/mod/url/view.php?id=2992554&redirect=1'); return false; };
+function legacy_activity_onclick_handler_4(e) { e.halt(); window.open('https://ccle.ucla.edu/mod/url/view.php?id=2992555&redirect=1'); return false; };
+function legacy_activity_onclick_handler_5(e) { e.halt(); window.open('https://ccle.ucla.edu/mod/url/view.php?id=2992556&redirect=1'); return false; };
+
+        require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
+            CustomEvents.define('#jump-to-activity', [CustomEvents.events.accessibleChange]);
+            $('#jump-to-activity').on(CustomEvents.events.accessibleChange, function() {
+                if (!$(this).val()) {
+                    return false;
+                }
+                $('#url_select_f5efa9511b2bf315').submit();
+            });
+        });
+    ;
+
+M.util.js_pending('theme_boost/loader');
+require(['theme_boost/loader'], function() {
+    M.util.js_complete('theme_boost/loader');
+});
+
+M.util.js_pending('theme_uclashared/drawer');
+require(['theme_uclashared/drawer'], function(drawer) {
+    drawer.init();
+    M.util.js_complete('theme_uclashared/drawer');
+});
+;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(3430496, [], true); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script>
+//<![CDATA[
+M.yui.add_module({"mod_assign":{"name":"mod_assign","fullpath":"https:\/\/ccle.ucla.edu\/lib\/javascript.php\/1592919301\/mod\/assign\/module.js","requires":[]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/ccle.ucla.edu\/lib\/javascript.php\/1592919301\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]}});
+
+//]]>
+</script>
+<script>
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","ok":"OK","cancel":"Cancel","addcomment":"Add a comment...","comments":"Comments","commentscount":"Comments ({$a})","commentsrequirelogin":"You need to log in to view the comments.","deletecommentbyon":"Delete comment posted by {$a->user} on {$a->time}","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error","file":"File","url":"URL"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"},"format_ucla":{"collapsedshow":"Show registrar description","collapsedhide":"Hide registrar description"},"debug":{"debuginfo":"Debug info","line":"Line","stacktrace":"Stack trace"},"langconfig":{"labelsep":":"}};
+//]]>
+</script>
+<script>
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\n    MathJax.Hub.Config({\n        tex2jax: {\n            inlineMath: [['$','$'], ['\\\\(','\\\\)']],\n            processEscapes: true\n        },\n        config: [\"MMLorHTML.js\", \"Safe.js\"],\n        jax: [\"input\/TeX\",\"input\/MathML\",\"output\/HTML-CSS\",\"output\/NativeMML\"],\n        extensions: [\"tex2jax.js\",\"mml2jax.js\",\"MathMenu.js\",\"MathZoom.js\"],\n        TeX: {\n            extensions: [\"mhchem.js\",\"AMSmath.js\",\"AMSsymbols.js\",\"noErrors.js\",\"noUndefined.js\"]\n        },\n        menuSettings: {\n            zoom: \"Double-Click\",\n            mpContext: true,\n            mpMouse: true\n        },\n        errorSettings: { message: [\"!\"] },\n        skipStartupTypeset: true,\n        messageStyle: \"none\"\n    });","lang":"en"});
+});
+Y.use("moodle-filter_glossary-autolinker",function() {M.filter_glossary.init_filter_autolinking({"courseid":0});
+});
+M.util.help_popups.setup(Y);
+Y.use("moodle-format_ucla-utils",function() {M.format_ucla.utils.init([]);
+});
+ M.util.js_pending('random5efa9511b2bf317'); Y.use('mod_assign', function(Y) { M.mod_assign.init_tree(Y, true, "assign_files_tree5efa9511b2bf316");  M.util.js_complete('random5efa9511b2bf317'); });
+ M.util.js_pending('random5efa9511b2bf318'); Y.on('domready', function() {  M.util.js_pending('random5efa9511b2bf318'); Y.use('core_comment', function(Y) { M.core_comment.init(Y, {"client_id":"5efa9511b7776","commentarea":"submission_comments","itemid":"4127579","page":0,"courseid":"86347","contextid":3430496,"component":"assignsubmission_comments","notoggle":false,"autostart":false});  M.util.js_complete('random5efa9511b2bf318'); });  M.util.js_complete('random5efa9511b2bf318'); });
+ M.util.js_pending('random5efa9511b2bf322'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5efa9511b2bf322'); });
+})();
+//]]>
+</script>
+
+        </div>
+    </footer></div><div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div>
+
+
+</body></html>
